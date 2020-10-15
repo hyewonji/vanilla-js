@@ -24,7 +24,7 @@ function randomNum(min, max, n) {
 
 function playGame(n) {
     const range = inputSlider.value;
-    if (Number(n) > Number(range)) {
+    if (n > Number(range)) {
         alert(`You can't over ${range}`);
     } else {
         randomNum(0, range, n);
@@ -40,7 +40,7 @@ function rangeChange() {
 
 function init() {
     inputSlider.addEventListener("mousemove", rangeChange);
-    playBtn.addEventListener("click", function () { playGame(chooseNum.value) });
+    playBtn.addEventListener("click", function () { playGame(Number(chooseNum.value)) });
 }
 
 init();

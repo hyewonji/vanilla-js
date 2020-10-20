@@ -1,0 +1,49 @@
+body {
+  margin-top: 100px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-family: "Libre Baskerville", serif;
+}
+
+h1 {
+  font-size: 35px;
+  font-family: "Chilanka", cursive;
+}
+
+.js-number {
+  font-size: 25px;
+}
+
+.js-result {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.slider {
+  margin-top: 30px;
+}
+
+.js-game {
+  margin-top: 40px;
+}
+
+.guess {
+  font-size: 23px;
+}
+
+.js-result {
+  margin-top: 20px;
+  color: rgb(255, 0, 106);
+}
+
+.result {
+  font-size: 20px;
+}
+
+.gameResult {
+  margin-top: 20px;
+  font-size: 23px;
+}

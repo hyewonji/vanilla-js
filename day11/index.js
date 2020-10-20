@@ -1,25 +1,30 @@
 const item = document.querySelector(".container");
 const calBoard = item.querySelector(".js-calBoard");
-let cal = []
+let cal = ''
+let num = ''
 
 function paintCalculator(event) {
     const className = event.target.className;
     const val = event.target.innerText;
     if (className === "item clean") {
         calBoard.innerHTML = 0;
-        cal = [];
+        num = '';
+        cal = '';
     } else if (className === "item num") {
-        console.log(cal[cal.length - 1]);
-        if (cal[cal.length - 1] === Number) {
-            String(cal[-1]) += val;
-            console.log(cal);
+        num += val;
+        cal += val;
+        if (num === '2') {
+            calBoard.innerHTML = eval(cal);
+        } else {
+            calBoard.innerHTML = num;
         }
-        //calBoard.innerHTML = Number(val);
-        cal.push(Number(val));
     } else if (className === "item cal") {
-        cal.push(val);
+        num = '';
+        cal += val;
     } else if (className === "item equl") {
-        calBoard.innerHTML = cal;
+        calBoard.innerHTML = eval(cal);
+        num = '';
+        cal = '';
     }
 }
 

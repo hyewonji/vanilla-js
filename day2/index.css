@@ -1,0 +1,17 @@
+body {
+    font-family: sans-serif;
+    height: 300px;
+  }
+  
+  .hello {
+    margin-top: 200px;
+    text-align: center;
+    text-justify: center;
+    color: white;
+  }
+  
+  .width {
+    text-align: center;
+    color: white;
+    font-size: 20px;
+  }

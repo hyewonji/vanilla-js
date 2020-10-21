@@ -1,0 +1,61 @@
+body {
+    margin-top: 150px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  form {
+    margin-bottom: 30px;
+    align-content: center;
+    justify-content: center;
+  }
+  
+  h1 {
+    padding-left: 22px;
+  }
+  
+  input {
+    width: 200px;
+    height: 30px;
+  }
+  
+  .title {
+    font-size: 22px;
+  }
+  
+  button {
+    margin-right: 5px;
+  }
+  
+  span {
+    margin-right: 15px;
+  }
+  
+  ul {
+    padding: 0;
+  }
+  
+  li {
+    list-style: none;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+    font-size: 17px;
+  }
+  
+  .js-pending {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }
+  
+  .js-finished {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-items: center;
+  }

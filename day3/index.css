@@ -1,0 +1,11 @@
+body {
+    margin: 170px;
+    font-family: sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  img {
+    margin: 50px;
+  }

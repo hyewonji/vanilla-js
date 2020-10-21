@@ -8,7 +8,6 @@
 ✅ ALL function handlers should be INSIDE of "superEventHandler"
 */
 
-import "./styles.css";
 const colors = ["#1abc9c", "#3498db", "#9b59b6", "#f39c12", "#e74c3c"];
 
 const h2 = document.querySelector("h2");

@@ -1,0 +1,14 @@
+body {
+    margin-top: 200px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: sans-serif;
+  }
+  
+  .xMas {
+    font-family: sans-serif;
+    color: darkorange;
+    font-size: 30px;
+  }
+  

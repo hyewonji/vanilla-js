@@ -5,26 +5,30 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Windows</title>
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css"
+        integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous" />
     <link rel="stylesheet" href="index.css">
     <style>
         @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-        </style>
+    </style>
 </head>
 
 <body>
-    <div class="js-clock">
-        <h3>yyyy.mm.dd ddd</h3>
-        <h1>00:00</h1>
+    <div class="bodyform">
+        <div class="js-clock">
+            <h3>yyyy.mm.dd ddd</h3>
+            <h1>00:00</h1>
+        </div>
+        <form class="js-form form">
+            <input type="text" placeholder="what is your name?">
+        </form>
+        <h4 class="js-greetings greetings"></h4>
+        <form class="js-toDoForm">
+            <input type="text" placeholder="Write a to do">
+        </form>
+        <ul class="js-toDoList"></ul>
+        <span class="js-weather"></span>
     </div>
-    <form class="js-form form">
-        <input type="text" placeholder="what is your name?">
-    </form>
-    <h4 class="js-greetings greetings"></h4>
-    <form class="js-toDoForm">
-        <input type="text" placeholder="Write a to do">
-    </form>
-    <ul class="js-toDoList"></ul>
-    <span class="js-weather"></span>
     <script src="clock.js"></script>
     <script src="gretting.js"></script>
     <script src="todo.js"></script>

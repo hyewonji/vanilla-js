@@ -52,15 +52,16 @@ h1 {
 
 input {
   outline-style: none;
+  padding-left: 20px;
   width: 300px;
   height: 30px;
   border-radius: 20px;
   border: none;
-  color: white;
+  color:rgb(156, 156, 156);
+  font-size: 14px;
 }
 
 input::placeholder{
-  padding-left: 20px;
   color:rgb(156, 156, 156);
   font-size: 14px;
 }
@@ -83,7 +84,7 @@ i {
 }
 
 li {
-  width: 150px;
+  width: 200px;
   margin: 5px;
   display: flex;
   justify-content: space-between;

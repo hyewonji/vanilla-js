@@ -2,7 +2,8 @@ body {
   display: flex;
   flex-direction: column;
   align-items: center;
-  padding-top: 100px;
+  padding-top: 80px;
+  padding-bottom: 100px;
   background-color: #2c3e50;
   color: white;
   font-family: "Poppins";
@@ -14,7 +15,7 @@ body {
   align-items: center;
   padding:40px;
   width:400px;
-  height: auto;
+  height: 650px;
   border-radius: 50px;
   background-color: white;
   background-color: rgba(147, 206, 231, 0.5);
@@ -78,6 +79,8 @@ ul {
   margin:0;
   margin-top: 15px;
   padding: 0;
+  height: 400px;
+  overflow: scroll;
   font-size: 20px;
 }
 

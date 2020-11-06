@@ -34,11 +34,12 @@ h1 {
 .form,
 .greetings {
   display: none;
+  margin-bottom: 7px;
 }
 
 .js-greetings {
   margin: 0px;
-  font-size: 30px;
+  font-size: 20px;
   text-decoration: underline;
 }
 
@@ -68,6 +69,8 @@ input::placeholder{
 
 input:focus {
   box-shadow: 0 4px 6px rgba(32, 33, 36, 0.28);
+  font-size: 16px;
+  color:rgb(97, 97, 97)
 }
 
 ul {
